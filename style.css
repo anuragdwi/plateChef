@@ -187,7 +187,6 @@ nav {
   line-height: 90%;
 }
 .gallery h1 span {
-  font-size: 6vh;
   color: var(--primary-color);
 }
 .gallery p {
@@ -428,7 +427,7 @@ nav {
     /* width: 90%; */
   }
   .gallery h1 {
-    font-size: 4vh;
+    font-size: 5vh;
   }
   .gallery p {
     font-size: 12px;
@@ -441,9 +440,7 @@ nav {
     font-size: 4vh;
     text-align: left;
   }
-  .subscribe p {
-    text-align: left;
-  }
+
   .footer .footerUp {
     flex-direction: column;
     justify-content: left;
