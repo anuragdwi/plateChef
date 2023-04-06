@@ -303,14 +303,16 @@ nav {
 }
 .footer .footerUp .right .links li {
   list-style: none;
+  margin: 5px 0;
 }
 
 .footer .footerUp .right .links a {
   text-decoration: none;
   color: #fff;
+  margin: 0 6px;
 }
 .footer .footerUp .right .links i {
-  font-size: 22px;
+  font-size: 28px;
   cursor: pointer;
 }
 .footer .footerUp .right .links li a {
