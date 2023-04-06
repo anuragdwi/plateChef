@@ -9,6 +9,11 @@ close.addEventListener("click", function (params) {
   menu.classList.remove("click");
 });
 
+function remove() {
+  const menu = document.getElementById("menu");
+  menu.classList.remove("click");
+}
+
 myID = document.getElementById("scrollup");
 
 var myScrollFunc = function () {
@@ -18,7 +23,6 @@ var myScrollFunc = function () {
   } else {
     myID.className = "bottomMenu hide";
   }
-  // myID.classList.add("showme", window.scrollY);
 };
 
 window.addEventListener("scroll", myScrollFunc);

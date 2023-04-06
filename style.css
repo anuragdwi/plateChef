@@ -343,7 +343,7 @@ nav {
   }
   #scrollup {
     position: fixed;
-    right: 102vw;
+    right: 10px;
     bottom: 100px;
   }
   .hide {
