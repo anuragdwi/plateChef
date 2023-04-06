@@ -220,7 +220,6 @@ nav {
   line-height: 90%;
 }
 .subscribe h1 span {
-  font-size: 6vh;
   color: var(--primary-color);
 }
 .subscribe p {
@@ -299,8 +298,16 @@ nav {
   display: flex;
   column-gap: 4em;
 }
+.footer .footerUp .right .links h3 {
+  margin-bottom: 16px;
+}
 .footer .footerUp .right .links li {
   list-style: none;
+}
+
+.footer .footerUp .right .links a {
+  text-decoration: none;
+  color: #fff;
 }
 .footer .footerUp .right .links i {
   font-size: 22px;
@@ -418,6 +425,9 @@ nav {
     font-size: 12px;
     /* width: 90%; */
   }
+  .gallery h1 {
+    font-size: 4vh;
+  }
   .gallery p {
     font-size: 12px;
   }
@@ -426,7 +436,7 @@ nav {
     width: 18em;
   }
   .subscribe h1 {
-    font-style: 4vh;
+    font-size: 4vh;
     text-align: left;
   }
   .subscribe p {
