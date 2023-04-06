@@ -137,11 +137,11 @@ nav {
   line-height: 90%;
 }
 .about h1 span {
-  font-size: 6vh;
   color: var(--primary-color);
 }
 .about p {
   margin: 1em 0 2em 0;
+  text-align: center;
 }
 .aboutContent {
   display: flex;
@@ -406,11 +406,9 @@ nav {
   }
   .about h1 {
     font-size: 4vh;
-    /* text-align: center; */
+    text-align: center;
   }
-  .about h1 span {
-    font-size: 4vh;
-  }
+
   .about > p {
     font-size: 12px;
   }
