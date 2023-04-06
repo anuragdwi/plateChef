@@ -332,8 +332,7 @@ nav {
   #scrollup {
     position: fixed;
     right: 102vw;
-
-    bottom: 492px;
+    bottom: 100px;
   }
   .hide {
     opacity: 0;
@@ -393,11 +392,11 @@ nav {
     margin: 0;
   }
   .about h1 {
-    font-size: 5vh;
+    font-size: 4vh;
     /* text-align: center; */
   }
   .about h1 span {
-    font-size: 5vh;
+    font-size: 4vh;
   }
   .about > p {
     font-size: 12px;
@@ -422,7 +421,7 @@ nav {
     width: 18em;
   }
   .subscribe h1 {
-    font-style: 6vh;
+    font-style: 4vh;
     text-align: left;
   }
   .subscribe p {
