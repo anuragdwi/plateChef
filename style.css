@@ -42,6 +42,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 10vh;
 }
 .navbar {
   width: 100%;
@@ -345,6 +346,9 @@ nav {
     position: fixed;
     right: 10px;
     bottom: 100px;
+  }
+  nav {
+    height: 8vh;
   }
   .hide {
     opacity: 0;
