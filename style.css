@@ -39,7 +39,6 @@ body {
   opacity: 1;
 }
 nav {
-  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,6 +172,7 @@ nav {
 .aboutCard p {
   font-size: 12px;
   width: 90%;
+  text-align: left;
 }
 /* gallery section */
 .gallery {
@@ -276,7 +276,7 @@ nav {
 .footer {
   height: 100%;
   background: #000;
-  color: wheat;
+  color: #fff;
   padding: 3em 0;
 }
 .footerUp {
